@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Formula1.Core\Formula1.Core.csproj" />
+    <ProjectReference Include="..\Formula1.Persistence\Formula1.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
